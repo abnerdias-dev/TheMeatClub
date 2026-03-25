@@ -1,0 +1,854 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Meat Club | Rotisseria & Macelleria</title>
+    <meta
+      name="description"
+      content="The Meat Club – Rotisseria & Macelleria. Cortes premium, sabores únicos e uma experiência gastronômica inesquecível."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== PRELOADER ===== -->
+    <div id="preloader">
+      <div class="preloader-inner">
+        <img
+          src="https://www.genspark.ai/api/files/s/azals9U5?token=Z0FBQUFBQnB3LWdIVlIyTG9ERFpDdFlXZFR5TDc1Ul8tR1hPTnRNSkJaZW5FNmtBUVVlNHJ0LV9vQ3F4T051aHVXRFdibnhkNmlqUzdHYVRTZENkam9JdUZrcnFadXFJOGdNUk1GcHJsd3dEQVhNd3NEUjRrZ0tuVzRCUHVwOWVJQXZaODdDZ3UxdTYzOVRfcjMxVWttY1RhdTdtdDIzd19pOTFOR2pkaFJ6VnRERmpYNjcyeVVVSlF1VEVPdG83dk5sdWhXNXFpOHdNOWxsQkJWZlRKQnFRaWJPaXVzRUlxclU2UjhoclBSNk5SVnJvTlZuTHdVS0VPMG5FNVRfVTlDbFhpY0NKNXNiRlhtYms2eVZ6dXRTTGhrdkJEd2JMRlE9PQ"
+          alt="The Meat Club"
+          class="preloader-logo"
+        />
+        <div class="preloader-bar"><span></span></div>
+      </div>
+    </div>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">
+          <img
+            src="https://www.genspark.ai/api/files/s/azals9U5?token=Z0FBQUFBQnB3LWdIVlIyTG9ERFpDdFlXZFR5TDc1Ul8tR1hPTnRNSkJaZW5FNmtBUVVlNHJ0LV9vQ3F4T051aHVXRFdibnhkNmlqUzdHYVRTZENkam9JdUZrcnFadXFJOGdNUk1GcHJsd3dEQVhNd3NEUjRrZ0tuVzRCUHVwOWVJQXZaODdDZ3UxdTYzOVRfcjMxVWttY1RhdTdtdDIzd19pOTFOR2pkaFJ6VnRERmpYNjcyeVVVSlF1VEVPdG83dk5sdWhXNXFpOHdNOWxsQkJWZlRKQnFRaWJPaXVzRUlxclU2UjhoclBSNk5SVnJvTlZuTHdVS0VPMG5FNVRfVTlDbFhpY0NKNXNiRlhtYms2eVZ6dXRTTGhrdkJEd2JMRlE9PQ"
+            alt="The Meat Club"
+          />
+        </a>
+        <nav class="nav-links" id="nav-links">
+          <a href="#sobre">A Casa</a>
+          <a href="#especialidades">Especialidades</a>
+          <a href="#menu">Cardápio</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#reserva" class="nav-cta">Reservar Mesa</a>
+        </nav>
+        <button class="nav-hamburger" id="hamburger" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div class="hero-bg">
+        <img
+          src="https://sspark.genspark.ai/cfimages?u1=gSqQkcK6AyPfvcFTWpDLoxIMqYQZDVAl5VokbhAFUtPZstDAEj9bxuod0wHZFil8f8aVGtQnX8o12%2B5KQG6QNnVxv8dWFE3exmDwFtDCELNcaKsCPmcuB4wm0%2FmkV%2BRwePsNdo97Cm0xRSeyVCshVy%2BN%2BDj3IMjjDrE6Ib420%2BUG9OG%2BG8phlsM%3D&u2=Ukh4H%2B0pR8cOowis&width=2560"
+          alt="Grelha com fogo"
+          class="hero-img"
+        />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Bem-vindo a</p>
+        <img
+          src="https://www.genspark.ai/api/files/s/azals9U5?token=Z0FBQUFBQnB3LWdIVlIyTG9ERFpDdFlXZFR5TDc1Ul8tR1hPTnRNSkJaZW5FNmtBUVVlNHJ0LV9vQ3F4T051aHVXRFdibnhkNmlqUzdHYVRTZENkam9JdUZrcnFadXFJOGdNUk1GcHJsd3dEQVhNd3NEUjRrZ0tuVzRCUHVwOWVJQXZaODdDZ3UxdTYzOVRfcjMxVWttY1RhdTdtdDIzd19pOTFOR2pkaFJ6VnRERmpYNjcyeVVVSlF1VEVPdG83dk5sdWhXNXFpOHdNOWxsQkJWZlRKQnFRaWJPaXVzRUlxclU2UjhoclBSNk5SVnJvTlZuTHdVS0VPMG5FNVRfVTlDbFhpY0NKNXNiRlhtYms2eVZ6dXRTTGhrdkJEd2JMRlE9PQ"
+          alt="The Meat Club"
+          class="hero-logo-main"
+        />
+        <p class="hero-tagline">Uma experiência gastronômica de alta carne</p>
+        <div class="hero-divider">
+          <span></span><i class="fas fa-utensils"></i><span></span>
+        </div>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">Ver Cardápio</a>
+          <a href="#reserva" class="btn btn-outline">Fazer Reserva</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Cortes Exclusivos</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Anos de Tradição</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number">4.9★</span>
+            <span class="stat-label">Avaliação</span>
+          </div>
+        </div>
+      </div>
+      <a href="#sobre" class="hero-scroll-hint">
+        <span>Descubra</span>
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ===== SOBRE A CASA ===== -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <div class="sobre-grid">
+          <div class="sobre-images" data-aos="fade-right">
+            <div class="img-frame img-frame--main">
+              <img
+                src="https://sspark.genspark.ai/cfimages?u1=KNn4zkPwVfURe2wb3Sa9bgAn1Cob%2BcQUnPTK2v3WcPGbYlfEYYhpIJWIDyCHds%2FDuJvCTYbUAuhVSbXV%2FMa%2BsnJx2APozi00QeWS1tQKWohIxw%3D%3D&u2=YJMJDJgH0LDUDt9y&width=2560"
+                alt="Chef preparando carne"
+              />
+            </div>
+            <div class="img-frame img-frame--accent">
+              <img
+                src="https://sspark.genspark.ai/cfimages?u1=4pumx3pfK5%2B0gmf9Tuuvip%2Fl4o3PoofsY%2BO4lbT03sGhrcw4SbByv%2FI46d6W%2Bj9wn3Io0bgNwdZlEjsoFE5bE6lWeSkEyrBXFbwXcxcVlCJpPNZ6Hfga%2FbPcjfOlqtvI8OFzTw1AQJEoQDtWqSUjkDJN6sNP2UOOWYhmtfCki%2F40rKpc1TiuR16%2B8q%2BIbSGReE0AIUrMPx6%2FmmZcAeGFV5C3uwPA%2Bm0%3D&u2=i3KQlbfhy9CAoedG&width=2560"
+                alt="Ambiente do restaurante"
+              />
+            </div>
+            <div class="sobre-badge">
+              <span class="badge-year">2017</span>
+              <span class="badge-text">Fundado em</span>
+            </div>
+          </div>
+          <div class="sobre-text" data-aos="fade-left">
+            <span class="section-eyebrow">Nossa História</span>
+            <h2 class="section-title">
+              A Arte de Preparar<br /><em>Carnes Excepcionais</em>
+            </h2>
+            <div class="golden-line"></div>
+            <p>
+              O <strong>The Meat Club</strong> nasceu da paixão por cortes
+              nobres, do respeito às tradições da rotisseria italiana e da
+              macelleria artesanal. Aqui, cada peça é selecionada com rigor,
+              maturada com paciência e finalizada no fogo com maestria.
+            </p>
+            <p>
+              Nossa cozinha une técnicas clássicas da culinária europeia com o
+              fogo vivo do churrasco brasileiro, criando uma experiência única
+              que celebra a carne em sua forma mais pura e saborosa.
+            </p>
+            <div class="sobre-features">
+              <div class="feature-item">
+                <i class="fas fa-fire-flame-curved"></i>
+                <div>
+                  <h4>Fogo Vivo</h4>
+                  <p>Grelha a lenha com temperatura controlada</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-leaf"></i>
+                <div>
+                  <h4>Origem Rastreada</h4>
+                  <p>Parceiros produtores selecionados</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-award"></i>
+                <div>
+                  <h4>Maturação Premium</h4>
+                  <p>Dry-aging e wet-aging artesanal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ESPECIALIDADES ===== -->
+    <section id="especialidades" class="section section--dark">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-eyebrow">O Melhor da Casa</span>
+          <h2 class="section-title">Nossos <em>Cortes</em> Nobres</h2>
+          <div class="golden-line centered"></div>
+          <p class="section-subtitle">
+            Selecionamos os melhores cortes do mundo para proporcionar uma
+            experiência sensorial única a cada visita.
+          </p>
+        </div>
+        <div class="cuts-grid">
+          <div class="cut-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="cut-img">
+              <img
+                src="https://sspark.genspark.ai/cfimages?u1=Rp%2BQTM58d8Kv1u2JxLnFyHANWvCoGEgH8HKKg62fl0N58LqKDC%2FV5LhyjaWEizHQQlv6VD5ZBh84NKaHU7LqM3bY7%2B1M8fLkc%2F9DmMVx%2Fo24qxQStjBRKz9Iml2ndkOHfgzI5eVw9qBpcKjn36TFuljfMSQBrFcKLCuzVxS5c9zUJ5rQ1BgXPZyWqbvpQqGl6yegPY5gF%2FmEscFvaBviB1fgKhkLjMoYX3fIf1ECaA%3D%3D&u2=EpR11F2U%2FGr38H8J&width=2560"
+                alt="Wagyu A5"
+              />
+              <div class="cut-overlay">
+                <span>Wagyu A5</span>
+              </div>
+            </div>
+            <div class="cut-info">
+              <h3>Wagyu Japonês A5</h3>
+              <p>
+                Marmoreio excepcional, textura sedosa e sabor inigualável. O rei
+                das carnes bovinas.
+              </p>
+              <div class="cut-tags">
+                <span>Dry-Aged</span>
+                <span>Importado</span>
+              </div>
+            </div>
+          </div>
+          <div class="cut-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="cut-img">
+              <img
+                src="https://sspark.genspark.ai/cfimages?u1=KoOYGLpkhzi2q%2BbOWLMhMK8tDOBkY0WOAL55rk0t2Xybusdly7HhE1hs1F3QLs5m6m9prjtPog0N809%2BhgufbFqNQXmWrNz0e2PeG0cPLNBTAgyIn8GtFXl41aua5QX%2FqaGWiZaq22cT2d8yATD5l5jlwbAfNgeHTT1AYYzsRhs%3D&u2=Yy%2BlnmXyCW7ExUU7&width=2560"
+                alt="Picanha na Brasa"
+              />
+              <div class="cut-overlay">
+                <span>Picanha</span>
+              </div>
+            </div>
+            <div class="cut-info">
+              <h3>Picanha Maturada</h3>
+              <p>
+                Corte rainha do churrasco brasileiro. Maturada 21 dias e
+                grelhada no ponto exato.
+              </p>
+              <div class="cut-tags">
+                <span>Wet-Aged 21d</span>
+                <span>Nacional Premium</span>
+              </div>
+            </div>
+          </div>
+          <div class="cut-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="cut-img">
+              <img
+                src="https://sspark.genspark.ai/cfimages?u1=v3Dopx85muakByVjjK%2Ft%2Fd3v5MHooTx87Rl9lggUiuR2Js4s%2BmoihD99LlxZTJDoi6p2th1PHZzvJWWbn6VVcINs3g%2BOkG2KT62jnh%2FHCd%2Bsp3qykJ6nsw7IFxpRAmE6xILVoljjg3oXjxVNFbQHH03vX7muuLJB4fK%2FMc1Qpfs%2BNSdB5i%2Bx8tVOPZohY%2Fu%2BogDPiFX5qznPVzb5StA6FJwB8HQXnXlepXMMn1J6aLPj&u2=7lQMqVXQK3fBPTKB&width=2560"
+                alt="Tomahawk"
+              />
+              <div class="cut-overlay">
+                <span>Tomahawk</span>
+              </div>
+            </div>
+            <div class="cut-info">
+              <h3>Tomahawk Ribeye</h3>
+              <p>
+                O corte mais imponente da casa. Costela longa, sabor profundo e
+                apresentação teatral.
+              </p>
+              <div class="cut-tags">
+                <span>Dry-Aged 30d</span>
+                <span>Para 2 Pessoas</span>
+              </div>
+            </div>
+          </div>
+          <div class="cut-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="cut-img">
+              <img
+                src="https://sspark.genspark.ai/cfimages?u1=EwX6uYEFhwCx4wBLHpkIcPjZ2xpEWouGPzJaKypAbQJlOu7GJWHBclrQ2Pwtshojp8wTMOYuaPDEpjgFbJb4EToiYYUBMvyVHKP7qTFA3u2VnZiykl7walJ9g4L3W0XZtrY2DOKBUOxYgFknm2Zrs69KoUL%2F5xeeEfFOiTwu6m8%3D&u2=DbuIYlAHRgMGGQkN&width=2560"
+                alt="T-Bone"
+              />
+              <div class="cut-overlay">
+                <span>T-Bone</span>
+              </div>
+            </div>
+            <div class="cut-info">
+              <h3>T-Bone Clássico</h3>
+              <p>
+                O melhor dos dois mundos: filé mignon e contra-filé separados
+                pelo osso em T.
+              </p>
+              <div class="cut-tags">
+                <span>USDA Prime</span>
+                <span>Grelhado</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MENU / CARDÁPIO ===== -->
+    <section id="menu" class="section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-eyebrow">Cardápio</span>
+          <h2 class="section-title">O Que Servimos <em>Hoje</em></h2>
+          <div class="golden-line centered"></div>
+        </div>
+        <div class="menu-tabs" data-aos="fade-up">
+          <button class="menu-tab active" data-tab="carnes">Carnes</button>
+          <button class="menu-tab" data-tab="entradas">Entradas</button>
+          <button class="menu-tab" data-tab="acompanhamentos">
+            Acompanhamentos
+          </button>
+          <button class="menu-tab" data-tab="bebidas">Bebidas & Vinhos</button>
+        </div>
+        <div class="menu-content">
+          <!-- Carnes -->
+          <div class="menu-panel active" id="tab-carnes">
+            <div class="menu-grid">
+              <div class="menu-item" data-aos="fade-up">
+                <div class="menu-item-header">
+                  <h4>
+                    Wagyu A5 Striploin <span class="badge-new">Destaque</span>
+                  </h4>
+                  <span class="menu-price">R$ 490</span>
+                </div>
+                <p>
+                  300g · Marmoreio nível 10 · Flor de sal · Manteiga trufada
+                </p>
+              </div>
+              <div class="menu-item" data-aos="fade-up">
+                <div class="menu-item-header">
+                  <h4>Tomahawk Dry-Aged 30d</h4>
+                  <span class="menu-price">R$ 380</span>
+                </div>
+                <p>
+                  1,2kg · Serve 2 pessoas · Osso longo · Purê trufado incluso
+                </p>
+              </div>
+              <div class="menu-item" data-aos="fade-up">
+                <div class="menu-item-header">
+                  <h4>Picanha Maturada 21d</h4>
+                  <span class="menu-price">R$ 195</span>
+                </div>
+                <p>400g · Grelha a lenha · Acompanha vinagrete artesanal</p>
+              </div>
+              <div class="menu-item" data-aos="fade-up">
+                <div class="menu-item-header">
+                  <h4>T-Bone USDA Prime</h4>
+                  <span class="menu-price">R$ 265</span>
+                </div>
+                <p>
+                  600g · Dois cortes nobres no mesmo osso · Molho bordelaise
+                </p>
+              </div>
+              <div class="menu-item" data-aos="fade-up">
+                <div class="menu-item-header">
+                  <h4>Contra-Filé Angus</h4>
+                  <span class="menu-price">R$ 148</span>
+                </div>
+                <p>
+                  350g · Angus certificado · Ervas frescas · Chimichurri da casa
+                </p>
+              </div>
+              <div class="menu-item" data-aos="fade-up">
+                <div class="menu-item-header">
+                  <h4>Filé Mignon ao Ponto</h4>
+                  <span class="menu-price">R$ 175</span>
+                </div>
+                <p>280g · Medalhão com crosta de pimenta · Molho ao porto</p>
+              </div>
+            </div>
+          </div>
+          <!-- Entradas -->
+          <div class="menu-panel" id="tab-entradas">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Carpaccio de Wagyu</h4>
+                  <span class="menu-price">R$ 85</span>
+                </div>
+                <p>
+                  Fatias finíssimas · Azeite trufado · Parmesão 36 meses ·
+                  Rúcula
+                </p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Tábua de Frios Artesanal</h4>
+                  <span class="menu-price">R$ 115</span>
+                </div>
+                <p>
+                  Embutidos selecionados · Queijos curados · Geleias especiais ·
+                  Pães artesanais
+                </p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Ossobuco Gratinado</h4>
+                  <span class="menu-price">R$ 72</span>
+                </div>
+                <p>
+                  Medula assada · Gremolata · Torradas crocantes · Flor de sal
+                </p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Croquete de Costela</h4>
+                  <span class="menu-price">R$ 58</span>
+                </div>
+                <p>
+                  6 unidades · Costela 12h · Crosta crocante · Aioli de alho
+                  negro
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Acompanhamentos -->
+          <div class="menu-panel" id="tab-acompanhamentos">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Purê Trufado</h4>
+                  <span class="menu-price">R$ 42</span>
+                </div>
+                <p>Batata asterix · Manteiga francesa · Óleo de trufa branca</p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Batata Rústica ao Alecrim</h4>
+                  <span class="menu-price">R$ 38</span>
+                </div>
+                <p>
+                  Batatas assadas · Alecrim fresco · Alho confitado · Flor de
+                  sal
+                </p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Farofa de Butter</h4>
+                  <span class="menu-price">R$ 28</span>
+                </div>
+                <p>
+                  Manteiga clarificada · Bacon · Cebola caramelizada · Ervas
+                </p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Legumes Grelhados</h4>
+                  <span class="menu-price">R$ 35</span>
+                </div>
+                <p>Abobrinha · Pimentão · Cogumelos · Azeite extra virgem</p>
+              </div>
+            </div>
+          </div>
+          <!-- Bebidas -->
+          <div class="menu-panel" id="tab-bebidas">
+            <div class="menu-grid">
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Malbec Gran Reserva</h4>
+                  <span class="menu-price">R$ 220</span>
+                </div>
+                <p>
+                  Argentina · Mendoza · Taninos sedosos · Perfeito com carnes
+                  vermelhas
+                </p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Cabernet Sauvignon</h4>
+                  <span class="menu-price">R$ 195</span>
+                </div>
+                <p>
+                  Chile · Valle del Maipo · Corpo encorpado · Notas de frutas
+                  escuras
+                </p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Old Fashioned da Casa</h4>
+                  <span class="menu-price">R$ 48</span>
+                </div>
+                <p>
+                  Bourbon premium · Bitter artesanal · Laranja cristalizada ·
+                  Gelo esculpido
+                </p>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <h4>Negroni Club</h4>
+                  <span class="menu-price">R$ 45</span>
+                </div>
+                <p>
+                  Gin London Dry · Campari · Vermouth rosso · Casca de laranja
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-cta" data-aos="fade-up">
+          <a href="#reserva" class="btn btn-primary">Reservar Mesa</a>
+          <p class="menu-note">
+            <i class="fas fa-info-circle"></i> Cardápio sujeito a sazonalidade.
+            Consulte o sommelier para harmonizações.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESSO / COMO FAZEMOS ===== -->
+    <section id="processo" class="section section--char">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-eyebrow">Da Origem ao Prato</span>
+          <h2 class="section-title">Nossa <em>Obsessão</em> pela Qualidade</h2>
+          <div class="golden-line centered"></div>
+        </div>
+        <div class="processo-steps">
+          <div class="step" data-aos="fade-up" data-aos-delay="0">
+            <div class="step-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="step-number">01</div>
+            <h3>Seleção da Origem</h3>
+            <p>
+              Visitamos pessoalmente as fazendas parceiras. Só trabalhamos com
+              produtores que compartilham nossos valores de bem-estar animal e
+              qualidade.
+            </p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step" data-aos="fade-up" data-aos-delay="150">
+            <div class="step-icon"><i class="fas fa-snowflake"></i></div>
+            <div class="step-number">02</div>
+            <h3>Maturação Artesanal</h3>
+            <p>
+              Cada corte passa por rigoroso processo de maturação em câmaras
+              controladas. Até 30 dias de dry-aging para intensidade máxima de
+              sabor.
+            </p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step" data-aos="fade-up" data-aos-delay="300">
+            <div class="step-icon"><i class="fas fa-fire"></i></div>
+            <div class="step-number">03</div>
+            <h3>Fogo com Maestria</h3>
+            <p>
+              Nossos mestres grelhadores dominam o fogo a lenha. A crosta
+              perfeita, o ponto exato e o descanso adequado — nenhum detalhe é
+              negligenciado.
+            </p>
+          </div>
+          <div class="step-connector"></div>
+          <div class="step" data-aos="fade-up" data-aos-delay="450">
+            <div class="step-icon"><i class="fas fa-concierge-bell"></i></div>
+            <div class="step-number">04</div>
+            <h3>Experiência na Mesa</h3>
+            <p>
+              Do ambiente ao serviço, tudo é pensado para que seu jantar seja
+              memorável. Sommelier à disposição e atendimento personalizado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERIA ===== -->
+    <section id="galeria" class="section section--dark">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-eyebrow">Galeria</span>
+          <h2 class="section-title">Momentos <em>Memoráveis</em></h2>
+          <div class="golden-line centered"></div>
+        </div>
+        <div class="gallery-grid" data-aos="fade-up">
+          <div class="gallery-item gallery-item--tall">
+            <img
+              src="https://sspark.genspark.ai/cfimages?u1=gSqQkcK6AyPfvcFTWpDLoxIMqYQZDVAl5VokbhAFUtPZstDAEj9bxuod0wHZFil8f8aVGtQnX8o12%2B5KQG6QNnVxv8dWFE3exmDwFtDCELNcaKsCPmcuB4wm0%2FmkV%2BRwePsNdo97Cm0xRSeyVCshVy%2BN%2BDj3IMjjDrE6Ib420%2BUG9OG%2BG8phlsM%3D&u2=Ukh4H%2B0pR8cOowis&width=2560"
+              alt="Grelha com fogo"
+            />
+            <div class="gallery-caption">Grelha a lenha</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://sspark.genspark.ai/cfimages?u1=Rp%2BQTM58d8Kv1u2JxLnFyHANWvCoGEgH8HKKg62fl0N58LqKDC%2FV5LhyjaWEizHQQlv6VD5ZBh84NKaHU7LqM3bY7%2B1M8fLkc%2F9DmMVx%2Fo24qxQStjBRKz9Iml2ndkOHfgzI5eVw9qBpcKjn36TFuljfMSQBrFcKLCuzVxS5c9zUJ5rQ1BgXPZyWqbvpQqGl6yegPY5gF%2FmEscFvaBviB1fgKhkLjMoYX3fIf1ECaA%3D%3D&u2=EpR11F2U%2FGr38H8J&width=2560"
+              alt="Wagyu com trufa"
+            />
+            <div class="gallery-caption">Wagyu com Trufa</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://sspark.genspark.ai/cfimages?u1=PKHQ8YsmevB%2BpaFKrQQzARrbbX%2FMgHnMmy9cRS6e0qvRuJHRKvgMVDp9XuFSqIeXlBZ45l2k0pctvDJp7V4hba2bWXzk2cPan4XWM0IuAEjvp6R4eCvhH0G7gHPNDbVXbG%2B0%2FrVf96Nld6T%2Fp2TpLK36dqKkgtv2O9MDNqS2esAOfNLCLjuyKPhmDaGY6WfXC%2BoQ5ZFDC7EgnFc6WVYtefa9&u2=GzrADAoyAKhS%2FJTj&width=2560"
+              alt="Wagyu premium"
+            />
+            <div class="gallery-caption">Corte Premium</div>
+          </div>
+          <div class="gallery-item gallery-item--wide">
+            <img
+              src="https://sspark.genspark.ai/cfimages?u1=tOvoONAjPIEvbotB%2BK7nanujfnJp0ERddjEq8kLFjjAkE%2FslRt7CZlRc9zB9fRkj0Ql7VSgvX6qUlyhC86MlHFYcyz8MCZJ5OboWiKapOvkXhsAUntJwOjFdBQQ46MmNWGL52F5tuhfWe8AkMw%3D%3D&u2=U3lerdRgt%2FzbdNC4&width=2560"
+              alt="Ambiente do restaurante"
+            />
+            <div class="gallery-caption">Nosso Ambiente</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://sspark.genspark.ai/cfimages?u1=KoOYGLpkhzi2q%2BbOWLMhMK8tDOBkY0WOAL55rk0t2Xybusdly7HhE1hs1F3QLs5m6m9prjtPog0N809%2BhgufbFqNQXmWrNz0e2PeG0cPLNBTAgyIn8GtFXl41aua5QX%2FqaGWiZaq22cT2d8yATD5l5jlwbAfNgeHTT1AYYzsRhs%3D&u2=Yy%2BlnmXyCW7ExUU7&width=2560"
+              alt="Grelha perfeita"
+            />
+            <div class="gallery-caption">No Fogo</div>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://sspark.genspark.ai/cfimages?u1=v%2F%2BAECD53ojd9WzsHFW9iMhshktoXIQCOHWKhZ8PpahR1IKnT3NBfj%2Fp2dhUyS5MLSMEyvSzH86wQdOJO3FaFPoNL%2B3%2BYfqL%2FHTLRvs6DxDaAjY8IbddcakIxjRp51Q5wcJ6EKIPDSI9ijbw&u2=7dR2ukl4idlUowz0&width=2560"
+              alt="Wagyu filet"
+            />
+            <div class="gallery-caption">Filet de Wagyu</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section id="depoimentos" class="section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-eyebrow">Quem Nos Visita</span>
+          <h2 class="section-title">O Que Dizem Nossos <em>Clientes</em></h2>
+          <div class="golden-line centered"></div>
+        </div>
+        <div class="testimonials-slider" data-aos="fade-up">
+          <div class="testimonials-track" id="testimonialsTrack">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <blockquote>
+                "O Wagyu do The Meat Club é simplesmente transcendente. Já comi
+                em três continentes e este é, sem dúvida, o melhor preparo que
+                já experimentei. O ambiente, o serviço — tudo perfeito."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">RM</div>
+                <div>
+                  <strong>Roberto Machado</strong>
+                  <span>Empresário · São Paulo</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <blockquote>
+                "Pedimos o menu executivo, tudo estava uma delícia, bem temperado e saboroso. A carne estava macia, a salada muito saborosa, assim como o arroz e as entradas. A sobremesa também é boa. O atendimento foi excelente e o prato chegou relativamente rápido. Indico a experiência."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">AC</div>
+                <div>
+                  <strong>Letícia Castro</strong>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <blockquote>
+                "Celebrei meu aniversário aqui e foi uma noite inesquecível. A
+                atenção ao detalhe, desde a escolha do corte até a apresentação
+                final, demonstra uma paixão genuína pela gastronomia de
+                qualidade."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">LT</div>
+                <div>
+                  <strong>Lucas Teixeira</strong>
+                  <span>Arquiteto · Belo Horizonte</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <blockquote>
+                "A Picanha Maturada é a melhor que já provei na vida. Suculenta,
+                saborosa, no ponto perfeito. O chimichurri da casa é um
+                espetáculo à parte. Voltarei com certeza!"
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">MS</div>
+                <div>
+                  <strong>Mariana Silva</strong>
+                  <span>Médica · Curitiba</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn" id="prevBtn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slider-dots" id="sliderDots"></div>
+            <button class="slider-btn" id="nextBtn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA RESERVA ===== -->
+    <section id="reserva" class="section section--cta">
+      <div class="cta-bg">
+        <img
+          src="https://sspark.genspark.ai/cfimages?u1=K6j9VioCLtdQm%2FCKuCfp%2FbtjkRFsRHJvIr5t3OJ%2B6kZ5c8HoknWUsNcXAUsxM3WwgBDzD6h4rpF4cZAFoXNyT%2FKGCzyhVdmykSRuFzlLYDfF1Gsaak6GSXN74c5kNUtB6JwjYqYCWIJQdpkgdVIGnQitSOs%2BSfipnHUmk5i1lOena4e965i85D0vlJ3l&u2=Zfr%2BBMEEOO1y1haB&width=2560"
+          alt="Steak na grelha"
+        />
+        <div class="cta-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="cta-content" data-aos="fade-up">
+          <span class="section-eyebrow">Reserve Sua Mesa</span>
+          <h2 class="section-title">
+            Pronto para uma <em>Experiência Única</em>?
+          </h2>
+          <div class="golden-line centered"></div>
+          <p>
+            Mesas limitadas. Reserve com antecedência para garantir o seu lugar
+            nesta experiência gastronômica inesquecível.
+          </p>
+          <div class="cta-buttons">
+            <a
+              href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20fazer%20uma%20reserva%20no%20The%20Meat%20Club."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-whatsapp"
+            >
+              <i class="fab fa-whatsapp"></i> Reservar pelo WhatsApp
+            </a>
+            <a
+              href="tel:+5511999999999"
+              class="btn btn-outline btn-outline--light"
+            >
+              <i class="fas fa-phone"></i> Ligar Agora
+            </a>
+          </div>
+          <div class="cta-info">
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>Horário</strong>
+                <span>Ter–Qui: 18h–23h | Sex–Sáb: 18h–00h | Dom: 12h–21h</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Localização</strong>
+                <span>Rua das Carnes Nobres, 100 · Itaim Bibi · São Paulo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img
+              src="https://www.genspark.ai/api/files/s/azals9U5?token=Z0FBQUFBQnB3LWdIVlIyTG9ERFpDdFlXZFR5TDc1Ul8tR1hPTnRNSkJaZW5FNmtBUVVlNHJ0LV9vQ3F4T051aHVXRFdibnhkNmlqUzdHYVRTZENkam9JdUZrcnFadXFJOGdNUk1GcHJsd3dEQVhNd3NEUjRrZ0tuVzRCUHVwOWVJQXZaODdDZ3UxdTYzOVRfcjMxVWttY1RhdTdtdDIzd19pOTFOR2pkaFJ6VnRERmpYNjcyeVVVSlF1VEVPdG83dk5sdWhXNXFpOHdNOWxsQkJWZlRKQnFRaWJPaXVzRUlxclU2UjhoclBSNk5SVnJvTlZuTHdVS0VPMG5FNVRfVTlDbFhpY0NKNXNiRlhtYms2eVZ6dXRTTGhrdkJEd2JMRlE9PQ"
+              alt="The Meat Club"
+              class="footer-logo"
+            />
+            <p>
+              Uma experiência gastronômica que eleva a carne a obra de arte.
+            </p>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+              <a href="https://wa.me/5511999999999" aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#sobre">A Casa</a></li>
+              <li><a href="#especialidades">Especialidades</a></li>
+              <li><a href="#menu">Cardápio</a></li>
+              <li><a href="#galeria">Galeria</a></li>
+              <li><a href="#depoimentos">Depoimentos</a></li>
+              <li><a href="#reserva">Reservas</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Informações</h4>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> R. das Carnes Nobres,
+                100<br />Itaim Bibi · São Paulo/SP
+              </li>
+              <li><i class="fas fa-phone"></i> (11) 9 9999-9999</li>
+              <li>
+                <i class="fab fa-whatsapp"></i> WhatsApp: (11) 9 9999-9999
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i> contato@themeatclub.com.br
+              </li>
+            </ul>
+          </div>
+          <div class="footer-hours">
+            <h4>Funcionamento</h4>
+            <div class="hours-list">
+              <div class="hours-row">
+                <span>Segunda</span>
+                <span class="closed">Fechado</span>
+              </div>
+              <div class="hours-row">
+                <span>Ter – Qui</span>
+                <span>18h – 23h</span>
+              </div>
+              <div class="hours-row">
+                <span>Sex – Sáb</span>
+                <span>18h – 00h</span>
+              </div>
+              <div class="hours-row">
+                <span>Domingo</span>
+                <span>12h – 21h</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2025 The Meat Club · Rotisseria & Macelleria · Todos os direitos
+            reservados.
+          </p>
+          <p>
+            Desenvolvido com
+            <i class="fas fa-heart" style="color: var(--gold)"></i> para os
+            amantes de carne premium
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+    <a
+      href="https://wa.me/5511999999999?text=Olá!%20Gostaria%20de%20fazer%20uma%20reserva%20no%20The%20Meat%20Club."
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+      <span class="wpp-tooltip">Reserve pelo WhatsApp</span>
+    </a>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button id="backToTop" aria-label="Voltar ao topo">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
